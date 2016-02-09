@@ -1,0 +1,10 @@
+html{ font-family: sans-serif; }
+body{ margin: 0px; }
+ strong{ font-weight: 700; }
+h1{ font-size: 2em; margin: 0.67em 0px; }
+html{ width: 100%; height: 100%; }
+body{ font-size: 16px; line-height: 1.5em; font-family: Merriweather, 'Arial CE', Arial, sans-serif; color: rgb(74, 178, 227); font-weight: 400; }
+.d-loading, body{ background-color: rgb(17, 17, 17); width: 100%; height: 100%; background-position: initial initial; background-repeat: initial initial; }
+.d-loading{ position: absolute; top: 0px; left: 0px; text-align: center; z-index: 2; vertical-align: middle; -webkit-user-select: none; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.d-loading-title{ width: 210px; height: 120px; margin: -100px 0px 0px -105px; font-size: 28px; line-height: 2em; position: absolute; top: 50%; left: 50%; font-weight: 300; }
+.d-loading-title > strong{ font-size: 24px; line-height: 2em; color: rgb(214, 190, 135); font-weight: 300; }
